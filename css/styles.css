@@ -10881,7 +10881,11 @@ body {
   font-family: Vazir;
 }
 
+.accordion-button {
+  justify-content: end !important;
+}
+
 .accordion-button::after {
-  margin-left:0!important;
-  margin-right:auto;
+  margin-right: auto;
+  margin-left: 0 !important;
 }

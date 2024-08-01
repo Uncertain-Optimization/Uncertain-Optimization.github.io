@@ -10879,5 +10879,9 @@ textarea.form-control-lg {
 
 body {
   font-family: Vazir;
-  font-weight: 500;
+}
+
+.accordion-button::after {
+  margin-left:0!important;
+  margin-right:auto;
 }

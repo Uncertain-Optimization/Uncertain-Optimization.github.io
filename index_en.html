@@ -1,23 +1,45 @@
 <!DOCTYPE html>
+<html lang="en">
 
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="Uncertain Optimization: Explore uncertainty in decision-making through robust optimization, stochastic programming, and fuzzy programming methods." />
-    <meta name="keywords" content="uncertain optimization, uncertainty in decision making, robust optimization, stochastic programming, fuzzy programming" />
-    <meta name="author" content="Mohammad Namakshenas" />
+  <title>Uncertain Optimization Book | Robust, Stochastic and Fuzzy Programming</title>
+  <meta name="description"
+    content="Uncertain Optimization book by Mir Saman Pishvaee and Mohammad Namakshenas: stochastic programming, robust optimization, uncertainty sets and fuzzy programming, with code." />
+  <meta name="keywords"
+    content="uncertain optimization, robust optimization, stochastic programming, stochastic optimization, fuzzy programming, robust fuzzy programming, uncertainty sets, convex optimization, Mohammad Namakshenas, Mir Saman Pishvaee" />
+  <meta name="author" content="Mir Saman Pishvaee, Mohammad Namakshenas" />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <link rel="canonical" href="https://uncertain-optimization.github.io/index_en.html" />
+  <link rel="alternate" hreflang="fa" href="https://uncertain-optimization.github.io/" />
+  <link rel="alternate" hreflang="en" href="https://uncertain-optimization.github.io/index_en.html" />
+  <link rel="alternate" hreflang="x-default" href="https://uncertain-optimization.github.io/" />
 
-    <!-- Open Graph Meta -->
-    <meta property="og:title" content="Uncertain Optimization" />
-    <meta property="og:description" content="Uncertain Robust Optimization and Uncertainty" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://uncertain-optimization.github.io/index_en.html" />
-    <meta property="og:image" content="assets/cover_en.png" />
-  <title>Uncertain Optimization</title>
+  <!-- Open Graph Meta -->
+  <meta property="og:site_name" content="Uncertain Optimization" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:locale:alternate" content="fa_IR" />
+  <meta property="og:title" content="Uncertain Optimization Book | Robust, Stochastic and Fuzzy Programming" />
+  <meta property="og:description"
+    content="Uncertain Optimization: Theory, Models, and Applications by Mir Saman Pishvaee and Mohammad Namakshenas, with Python and CPLEX code." />
+  <meta property="og:type" content="book" />
+  <meta property="book:isbn" content="9789644546105" />
+  <meta property="og:url" content="https://uncertain-optimization.github.io/index_en.html" />
+  <meta property="og:image" content="https://uncertain-optimization.github.io/assets/cover_en.png" />
+  <meta property="og:image:width" content="600" />
+  <meta property="og:image:height" content="700" />
+  <meta property="og:image:alt" content="Cover of the book Uncertain Optimization" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Uncertain Optimization Book" />
+  <meta name="twitter:description"
+    content="Theory, Models, and Applications: stochastic programming, robust optimization and fuzzy programming. By Mir Saman Pishvaee and Mohammad Namakshenas." />
+  <meta name="twitter:image" content="https://uncertain-optimization.github.io/assets/cover_en.png" />
+
   <!-- Favicon-->
   <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-  <!-- Bootstrap icons-->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+  <link rel="preload" as="image" href="assets/cover_en.webp" type="image/webp" />
   <!-- Core theme CSS (includes Bootstrap)-->
   <link href="css/styles.css" rel="stylesheet"/>
 </head>
@@ -26,11 +48,11 @@
   <!-- Navigation-->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container px-4 px-lg-5">
-      <a class="navbar-brand" href="#!">Uncertain Optimization Complementary Material</a>
+      <a class="navbar-brand" href="index_en.html">Uncertain Optimization Complementary Material</a>
       <div class="navbar-nav">
         <div class="d-flex">
-          <a class="nav-item nav-link px-2" href="index_en.html">EN</a>
-          <a class="nav-item nav-link px-2" href="index.html">FA</a>
+          <a class="nav-item nav-link px-2" href="index_en.html" hreflang="en">EN</a>
+          <a class="nav-item nav-link px-2" href="./" hreflang="fa" lang="fa">FA</a>
         </div>
       </div>
     </div>
@@ -47,14 +69,18 @@
             <cite title="Source Title">M Namakshenas</cite>
           </figcaption>
         </figure> 
-        <div class="col-md-6"><img class="card-img-top mb-5 mb-md-0" src="./assets/cover_en.png" alt="..." /></div>
+        <div class="col-md-6">
+          <picture>
+            <source srcset="assets/cover_en.webp" type="image/webp" />
+            <img class="card-img-top mb-5 mb-md-0" src="assets/cover_en.png" width="600" height="700"
+              alt="Cover of Uncertain Optimization: Theory, Models, and Applications by Mir Saman Pishvaee and Mohammad Namakshenas" />
+          </picture>
+        </div>
         <div class="col-md-6">
           <div class="d-flex text-danger mb-3">
             Language: Persian
         </div>
-          <div class="small mb-1">ISBN 
-            <img height="20px" src="./assets/isbn.png" alt="..." />
-          </div>
+          <div class="small mb-1">ISBN: <span class="isbn">978-964-454-610-5</span></div>
           <h1 class="display-5 fw-bolder">Uncertain Optimization</h1>
           <div class="fs-5 mb-3">
             <span>Theory, Models, and Applications</span>
@@ -92,7 +118,7 @@
             data-bs-parent="#accordionExample">
             <div class="accordion-body">
               <ul>
-                <li>Chapter Overview  1</li>
+                <li>Chapter Overview</li>
                 <li>Importance and Influence of Uncertainty</li>
                 <li>Philosophy of Uncertainty and Risk</li>
                 <li>Law of Noncontradiction and Uncertainty</li>
@@ -118,11 +144,11 @@
             <div class="accordion-body">
               <ul>
                 <li>Chapter Overview</li>
-                <li>Probabilistic Prgramming with Costraints</li>
+                <li>Probabilistic Programming with Constraints</li>
                 <li>Scenario-based Stochastic Programming</li>
                 <ul>
                   <li>
-                    <a href="https://github.com/Uncertain-Programming/Uncertain-Programming.github.io/blob/main/content/ch2/LeungSupplyChain.zip?raw=true"
+                    <a href="content/ch2/LeungSupplyChain.zip"
                       download>Leung Method in Supply Chain (CPLEX)</a>
                   </li>
                 </ul>
@@ -135,15 +161,14 @@
                 <li>Sample Average Approximation</li>
                 <ul>
                   <li>
-                    <a href="https://github.com/Uncertain-Programming/Uncertain-Programming.github.io/blob/main/content/ch2/SAA_shabbir.ipynb.zip?raw=true"
+                    <a href="content/ch2/SAA_shabbir.ipynb.zip"
                       download>Shabbir Ahmed Method (Python)</a>
                   </li>
                 </ul>
                 <li>Stochastic Value at Risk</li>
                 <ul>
                   <li>
-                    <a href="https://github.com/namakshenas/Python-Coherent-Risk-Measures"
-                      download>Value at Risk Models (Python)</a>
+                    <a href="https://github.com/namakshenas/Python-Coherent-Risk-Measures" rel="noopener" target="_blank">Value at Risk Models (Python)</a>
                   </li>
                 </ul>
                 <li>Exercises</li>
@@ -168,7 +193,7 @@
                 <li>Ellipsoidal Uncertainty Set</li>
                 <ul>
                   <li>
-                    <a href="https://github.com/Uncertain-Programming/Uncertain-Programming.github.io/blob/main/content/ch3/l2norm_files_robust.rar?raw=true"
+                    <a href="content/ch3/l2norm_files_robust.rar"
                       download>Supply Chain Problem with Ellipsoidal Uncertainty (CPLEX)</a>
                   </li>
                 </ul>
@@ -177,7 +202,7 @@
                 <li>Budgeted Uncertainty Sets</li>
                 <ul>
                   <li>
-                    <a href="https://github.com/Uncertain-Programming/Uncertain-Programming.github.io/blob/main/content/ch3/knapsackRobustBertsimas.ipynb.zip?raw=true"
+                    <a href="content/ch3/knapsackRobustBertsimas.ipynb.zip"
                       download>Price of Robustness Sensitivity Analysis (Python)</a>
                   </li>
                 </ul>
@@ -185,7 +210,7 @@
                 <li>Uncertainty in Right Hand Side</li>
                 <ul>
                   <li>
-                    <a href="https://github.com/Uncertain-Programming/Uncertain-Programming.github.io/blob/main/content/ch3/RHS_Robustness-main.zip?raw=true"
+                    <a href="content/ch3/RHS_Robustness-main.zip"
                       download>Supply Chain with Uncertain Demand (Python)</a>
                   </li>
                 </ul>
@@ -194,7 +219,7 @@
                 <li>Data-driven Robust Optimization</li>
                 <ul>
                   <li>
-                    <a href="https://github.com/Uncertain-Programming/Uncertain-Programming.github.io/blob/main/content/ch3/DDRO-Knapsack-Model-main.zip?raw=true"
+                    <a href="content/ch3/DDRO-Knapsack-Model-main.zip"
                       download>Data-driven Knapsack Model (Python)</a>
                   </li>
                 </ul>
@@ -238,7 +263,7 @@
                 <li>Convex Optimization and Conic Programming</li>
                 <ul>
                   <li>
-                    <a href="https://github.com/Uncertain-Programming/Uncertain-Programming.github.io/blob/main/content/ch3/socp_faci_eucle.mod.zip?raw=true"
+                    <a href="content/ch3/socp_faci_eucle.mod.zip"
                       download>Location Model with Euclidean Distance (CPLEX)</a>
                   </li>
                 </ul>
@@ -258,9 +283,45 @@
     </div>
   </footer>
   <!-- Bootstrap core JS-->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"
+    defer></script>
   <!-- Core theme JS-->
   <script src="js/scripts.js"></script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Book",
+    "@id": "https://uncertain-optimization.github.io/#book",
+    "url": "https://uncertain-optimization.github.io/",
+    "name": "Uncertain Optimization: Theory, Models, and Applications",
+    "alternateName": "بهینه‌سازی غیرقطعی",
+    "isbn": "9789644546105",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Mir Saman Pishvaee",
+        "alternateName": "میرسامان پیشوایی"
+      },
+      {
+        "@type": "Person",
+        "name": "Mohammad Namakshenas",
+        "alternateName": "محمد نمک‌شناس"
+      }
+    ],
+    "description": "A Persian textbook on decision-making under uncertainty: philosophy and typology of uncertainty, stochastic programming, robust optimization based on uncertainty sets, and robust fuzzy programming.",
+    "inLanguage": "fa",
+    "image": "https://uncertain-optimization.github.io/assets/cover_en.png",
+    "keywords": "uncertain optimization, robust optimization, stochastic programming, fuzzy programming, uncertainty sets, convex optimization",
+    "about": [
+      { "@type": "Thing", "name": "Robust optimization" },
+      { "@type": "Thing", "name": "Stochastic programming" },
+      { "@type": "Thing", "name": "Fuzzy programming" },
+      { "@type": "Thing", "name": "Uncertainty sets" },
+      { "@type": "Thing", "name": "Convex optimization" }
+    ]
+  }
+</script>
 </body>
 
 </html>

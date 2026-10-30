@@ -10898,3 +10898,41 @@ body {
 .isbn {
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
 }
+
+.order-box {
+  padding: 1rem 1.25rem;
+  background-color: #fff8e6;
+  border: 2px solid #f0b429;
+  border-radius: 0.75rem;
+}
+
+.order-icon {
+  width: 1.15em;
+  height: 1.15em;
+  vertical-align: -0.2em;
+}
+
+.btn-order {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1.25rem;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.btn-order:hover,
+.btn-order:focus {
+  color: #fff;
+  filter: brightness(0.9);
+}
+
+.btn-bale {
+  background-color: #1565c0;
+}
+
+.btn-whatsapp {
+  background-color: #0a7466;
+}

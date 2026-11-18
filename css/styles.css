@@ -10936,3 +10936,85 @@ body {
 .btn-whatsapp {
   background-color: #0a7466;
 }
+
+.site-header {
+  padding: 0.75rem 0;
+  background-color: #fff;
+  border-bottom: 1px solid #e3e8ef;
+  box-shadow: 0 1px 4px rgba(16, 32, 64, 0.06);
+}
+
+.site-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  min-width: 0;
+  color: #1f3a7a;
+  text-decoration: none;
+}
+
+.site-brand:hover,
+.site-brand:focus {
+  color: #162b5c;
+}
+
+.site-brand-icon {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  color: #f0b429;
+  background-color: #1f3a7a;
+  border-radius: 0.6rem;
+}
+
+.site-brand-icon svg {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.site-brand-text {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  line-height: 1.35;
+}
+
+.site-brand-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.site-brand-sub {
+  font-size: 0.8rem;
+  color: #6b7280;
+}
+
+.lang-switch {
+  flex: none;
+  display: inline-flex;
+  padding: 3px;
+  background-color: #f3f5f9;
+  border: 1px solid #d7dde8;
+  border-radius: 999px;
+}
+
+.lang-switch a {
+  padding: 0.25rem 0.8rem;
+  font-size: 0.85rem;
+  font-weight: bold;
+  line-height: 1.5;
+  color: #4b5563;
+  text-decoration: none;
+  border-radius: 999px;
+}
+
+.lang-switch a:hover {
+  color: #1f3a7a;
+}
+
+.lang-switch a.active {
+  color: #fff;
+  background-color: #1f3a7a;
+}
